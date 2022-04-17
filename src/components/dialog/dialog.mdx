@@ -1,0 +1,21 @@
+---
+name: Dialog
+---
+
+import Dialog from "./dialog";
+import { Playground , Props} from "docz";
+import React from "react";
+
+# Dialog
+
+A Dialog component
+
+<Props of={Dialog} />
+
+## Basic Usage
+
+<Playground>
+  {() => <Dialog title="My dialog" isOpen={true} onClose={() => true} >
+    some content
+  </Dialog>}
+</Playground>
